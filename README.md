@@ -24,4 +24,15 @@ Learn antlr
         100+2*34
         ^D
 ```
-
+3. git
+```bash
+  $ git init
+  $ git add Expr.g4
+  $ vi README.md
+  $ git add README.md
+  $ git commit -m "Initialize repo"
+  $ git remote add origin https://github.com/rwibawa/antlr_01.git
+  $ git remote -v
+  $ git pull origin master --allow-unrelated-histories
+  $ git push --set-upstream origin master
+```
